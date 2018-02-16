@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+
+ h2 {
+  font-family: 'Pacifico', cursive;
+
+}
+    
+html, body {
+  padding: 20px;
+}
+
+.btn {
+  background-color: #2db34a;
+  border: none;
+  transition-duration: 2s;
+  box-shadow: 10px -5px 10px teal;
+  transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+}
+
+.btn:hover {
+  padding: 40px;
+  background-color: #0288D1;
+}
+
+/* targetting child element by class name*/
+.btn:hover .button-text {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  height: 70px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+}
+
+.nav-item {
+  float: left;
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: green;
+  text-decoration: none;
+}
+
+ .box {
+   font-family: "Times New Roman", Times, serif;
+
+  height: 500px;
+  width: 500px;
+  border: 1px dashed black;
+  border-style: dotted dashed solid double;
+}
